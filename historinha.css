@@ -200,9 +200,18 @@ body {
         padding: 1%;
         background: #f0f0d1;
     }
+    
+    .popup-image {
+        width: 95%;
+    }
 
     .popup-image img {
         width: 45%;
+    }
+    
+    .popup-image span {
+    right: 15px;
+    font-size: 48px;
     }
 
     #msg {
