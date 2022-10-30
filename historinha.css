@@ -193,21 +193,12 @@ body {
 /* adaptação mobile */
 
 @media screen and (max-width:600px) {
-    
-    body {
-        max-width:600px;
-    }
 
     .container {
-        margin: 5% 5% 2% 5%;
+        margin: 5% 0% 2% 5%;
         width: 90%;
         padding: 1%;
         background: #f0f0d1;
-        max-width:600px;
-    }
-    
-    .popup-image {
-        max-width:600px;
     }
 
     .popup-image img {
@@ -216,7 +207,6 @@ body {
 
     #msg {
         font-size: 14px;
-        max-width: 120px;
     }
 
     p {
