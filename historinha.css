@@ -208,15 +208,10 @@ body {
     .popup-image img {
         width: 45%;
     }
-    
-    .popup-image span {
-    right: 15px;
-    font-size: 48px;
-    }
 
     #msg {
         font-size: 14px;
-        max-width: 120px;
+        max-width: 100px;
     }
 
     p {
