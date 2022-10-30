@@ -4,7 +4,7 @@ html{
 
 body {
     height: 100%;
-    background-image: url(/Historinha/Fundo-Gradient.png);
+    background-image: url(Fundo-Gradient.png);
     background-size: cover;
     background-position: center;
 }
