@@ -49,51 +49,6 @@ body {
     margin: 3% 10% 5% 10%;
 }
 
-#msg {
-    font-size: 24px;
-    margin: 10px auto;
-    width: fit-content;
-    cursor: pointer;
-    max-width: 200px;
-    text-decoration: underline;
-    
-    animation-name: space;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.popup-image {
-    position: fixed;
-    top: 0; left: 0;
-    background: rgba(0, 0, 0, .9);
-    height: 100%;
-    width: 100%;
-    z-index: 100;
-    display: none;
-}
-
-.popup-image span {
-    position: absolute;
-    top: 0; right: 10px;
-    font-size: 60px;
-    font-weight: bolder;
-    color: #fff;
-    cursor: pointer;
-    z-index: 100;
-}
-
-.popup-image img{
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    border: 3px solid black;
-    border-radius: 20px;
-    width: 20%;
-    height: auto;
-}
-
 .titulo, #data {
     text-align: center;
 }
@@ -158,21 +113,6 @@ body {
 
 /* movimentação dos botoes de interção */
 
-@keyframes space {
-
-    0% {
-        letter-spacing: 1px;
-    }
-
-    50% {
-        letter-spacing: 2px;
-    }
-
-    100% {
-        letter-spacing: 4px;
-    }
-}
-
 @keyframes setaProximo {
     0% {
         top: 0px;
@@ -201,19 +141,6 @@ body {
         background: #f0f0d1;
     }
     
-    .popup-image {
-        width: 95%;
-    }
-
-    .popup-image img {
-        width: 45%;
-    }
-
-    #msg {
-        font-size: 14px;
-        max-width: 80px;
-    }
-
     p {
         font-size:small;
     }
