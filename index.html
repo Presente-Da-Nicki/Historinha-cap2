@@ -111,9 +111,9 @@
                 </p>
 
                 <p>
-                    - MOURAAA, ME AJUDAAA
+                    - MOURAAAAA, ME AJUDAAA
                     <br>
-                    - AAAAA, TIRA ELA DE CIMA DE MIM
+                    - AAAAAAAA, TIRA ELA DE CIMA DE MIM
                     <br>
                     Gritava o Ventura.
                 </p>
@@ -207,7 +207,7 @@
                 <p>
                     Aline e Ventura tentaram abrir a porta do laboratório, mas ela obviamente estava trancada, então começaram a gritar.
                     <br>
-                    - RENNERRR, VINIII SOCORRO !!!
+                    - RENNERRRRRR, VINIIIIII SOCORRO !!!
                 </p>
 
                 <p>
@@ -234,9 +234,41 @@
                     <br>
                     Arthur seguiu em linha reta para a EMEF, enquanto Nicki se virou para ir no Beck...
                 </p>
+
+                <p id="call-popup">
+                    O fim? Ou será que não?
+                </p>
+                <div class="popup">
+                    <div class="popup-content">
+                        <span id="close-popup">
+                            X
+                        </span>
+                        
+                        <p>
+                            Escolha agora qual historia gostaria de ver.
+                            <br>
+                            Todas elas tem sangue e muito a oferecer.
+                            <br>
+                            Garanto que da sua escolha não irá se arrepender.
+                        </p>
+
+                        <a href="" class="opcoes">
+                            Arthur
+                        </a>
+
+                        <a href="" class="opcoes">
+                            Nicole
+                        </a>
+
+                        <a href="" class="opcoes">
+                            Gustavo & Aline
+                        </a>
+
+                    </div>
+                </div>
                 
                 <div class="interacao">
-                    <img src="Setinha.png" id="setinha">
+                    <img src="/Historinha/Setinha.png" id="setinha">
                 </div>
         </div>
     </div>
@@ -253,7 +285,7 @@
         window.close()
     })
 
-    
+    //Popup ConversaFake
     document.querySelector('#msg').onclick = () => {
         document.querySelector('.popup-image').style.display = 'block'
     }
@@ -262,6 +294,15 @@
         document.querySelector('.popup-image').style.display = 'none'
     }
 
+
+    //Popup Escolha da historia
+    document.querySelector('#call-popup').onclick = () => {
+        document.querySelector('.popup').style.display = 'block'
+    }
+    
+    document.querySelector('#close-popup').onclick = () => {
+        document.querySelector('.popup').style.display = 'none'
+    }
 
 </script>
 
