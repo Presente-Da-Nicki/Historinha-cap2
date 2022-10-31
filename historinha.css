@@ -126,7 +126,8 @@ body {
 
 /* popup nomes */
 #call-popup {
-    margin-top: 24px;
+    width: fit-content;
+    margin: 24px auto;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
     font-size: 28px;
